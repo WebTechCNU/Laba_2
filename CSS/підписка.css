@@ -1,0 +1,32 @@
+/* Загальні стилі для header */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Задайте колір фону, який вам подобається */
+    padding: 10px;
+  }
+  .header p {
+    margin: 0; /* Забрати відступи від тексту */
+    color: #cababa; /* Задайте колір тексту, який вам подобається */
+  }
+  
+  /* Стилізація кнопок */
+  button {
+    border: none;
+    border-radius: 5px; /* Закруглені краї кнопок */
+    padding: 8px 16px; /* Внутрішні відступи кнопок */
+    cursor: pointer;
+    margin-left: 10px; /* Відстань між кнопками (можна змінити за потребою) */
+  }
+  
+  #subscribe-header {
+    background-color: #4CAF50; /* Задайте колір кнопки "Підписатися" */
+    color: #fff; /* Задайте колір тексту на кнопці "Підписатися" */
+  }
+  
+  #close-button {
+    background-color: #f44336; /* Задайте колір кнопки "Закрити" */
+    color: #fff; /* Задайте колір тексту на кнопці "Закрити" */
+  }
+  
